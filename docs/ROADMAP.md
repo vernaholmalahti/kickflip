@@ -18,7 +18,7 @@ Build in this order. **One task = one Claude Code conversation step = (usually) 
   Implement `src/theme/` tokens from DESIGN_SYSTEM (colours, spacing, radii, typography). Load fonts in root layout with a splash screen until loaded.
   *Done when:* a test screen shows each text style and colour swatch.
 
-- [ ] **0.4 i18n helper**
+- [x] **0.4 i18n helper**
   `src/i18n/en.ts` (nested object) + `t('today.empty.title')` helper with type-safe keys.
   *Done when:* a key typo is a TypeScript error.
 
