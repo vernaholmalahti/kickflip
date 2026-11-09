@@ -2,12 +2,14 @@ import { render, screen } from '@testing-library/react-native';
 
 import Index from '../app/index';
 
-// Smoke test: proves Jest + React Native Testing Library are wired up.
+// Smoke test: the first screen renders with the theme tokens.
 // Replaced by real tests once the Today screen exists.
 describe('Index screen', () => {
-  it('renders', async () => {
+  it('renders every text style from the theme', async () => {
     // RNTL v14: render is async (React 19 renders concurrently), so we await it.
     await render(<Index />);
-    expect(screen.getByText(/Edit src\/app\/index.tsx/)).toBeOnTheScreen();
+    expect(screen.getByText('display')).toBeOnTheScreen();
+    expect(screen.getByText('timer')).toBeOnTheScreen();
+    expect(screen.getByText('primary')).toBeOnTheScreen();
   });
 });

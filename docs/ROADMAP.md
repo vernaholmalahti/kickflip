@@ -14,7 +14,7 @@ Build in this order. **One task = one Claude Code conversation step = (usually) 
   Create the folder structure from ARCHITECTURE §2 with placeholder `index.ts` files where useful. Make sure `docs/` and `CLAUDE.md` sit in the repo root (move them if the app was scaffolded elsewhere). Write a minimal README.
   *Done when:* structure matches the doc; first commit made.
 
-- [ ] **0.3 Theme & fonts**
+- [x] **0.3 Theme & fonts**
   Implement `src/theme/` tokens from DESIGN_SYSTEM (colours, spacing, radii, typography). Load fonts in root layout with a splash screen until loaded.
   *Done when:* a test screen shows each text style and colour swatch.
 
