@@ -1,0 +1,49 @@
+# OS / editor
+.DS_Store
+.claude/settings.local.json
+
+# dependencies
+node_modules/
+
+# env
+.env
+.env.*
+
+# Expo
+.expo/
+dist/
+build/
+web-build/
+expo-env.d.ts
+
+# generated native folders (Expo Continuous Native Generation)
+/ios
+/android
+.kotlin/
+
+# signing keys — never commit
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro
+.metro-health-check*
+
+# logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# TypeScript
+*.tsbuildinfo
+
+# test coverage
+coverage/
+
+# Python (from original repo setup)
+__pycache__/
+.venv/
