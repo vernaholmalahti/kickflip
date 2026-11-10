@@ -22,7 +22,7 @@ Build in this order. **One task = one Claude Code conversation step = (usually) 
   `src/i18n/en.ts` (nested object) + `t('today.empty.title')` helper with type-safe keys.
   *Done when:* a key typo is a TypeScript error.
 
-- [ ] **0.5 Base components**
+- [x] **0.5 Base components**
   `Button`, `Chip`, `Card`, `ScreenHeader`, `EmptyState` with accessibility props.
   *Done when:* used on the test screen; RNTL test for Button press.
 

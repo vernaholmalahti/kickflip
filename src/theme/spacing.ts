@@ -23,5 +23,7 @@ export const layout = {
   screenPaddingLarge: 20, // for larger screens
   /** Every interactive element must be at least this big (width and height). */
   minTouchTarget: 48,
+  /** Minimum button heights. Minimum, not fixed — buttons grow with large system fonts. */
+  controlHeight: { md: 48, lg: 56 },
   borderWidth: 1,
 } as const;

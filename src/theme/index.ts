@@ -4,5 +4,6 @@ export { colors, type ColorToken } from './colors';
 // layout loads them, via '@/theme/fonts'. Keeping them out of this index means
 // components and tests never pull in the font loader.
 export type { FontName } from './fonts';
+export { opacity } from './opacity';
 export { layout, radii, spacing } from './spacing';
 export { fontFamily, typography, type TypographyToken } from './typography';
