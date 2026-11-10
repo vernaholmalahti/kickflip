@@ -26,7 +26,7 @@ Build in this order. **One task = one Claude Code conversation step = (usually) 
   `Button`, `Chip`, `Card`, `ScreenHeader`, `EmptyState` with accessibility props.
   *Done when:* used on the test screen; RNTL test for Button press.
 
-- [ ] **0.6 Tab navigation shell**
+- [x] **0.6 Tab navigation shell**
   Tabs: Today, Garage, Trick Book, Me — each showing a placeholder. Tab icons + labels from i18n.
   *Done when:* can switch between all four tabs.
 

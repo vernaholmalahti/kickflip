@@ -17,6 +17,7 @@
 | Dates | **date-fns** | Week boundaries, "days since" |
 | IDs | **expo-crypto** `randomUUID()` | |
 | Fonts | **@expo-google-fonts/*** (see DESIGN_SYSTEM) | |
+| Icons & vector art | **react-native-svg** | Custom icons in `src/components/icons/`; works in Expo Go |
 | Tests | **jest-expo** + **@testing-library/react-native** | |
 | Lint/format | ESLint (expo config) + Prettier | |
 
@@ -224,7 +225,7 @@ Derived values (never stored, computed with selectors): total XP, level, XP into
 - Respect system font scaling (no fixed-height text containers).
 - `accessibilityRole`, `accessibilityLabel`, `accessibilityState` on interactive elements.
 - Reduce motion: check with Reanimated `useReducedMotion()` combined with settings override.
-- Lists use `FlatList`; images are small PNGs/WebPs (or SVG via `react-native-svg` if needed — ask first).
+- Lists use `FlatList`; images are small PNGs/WebPs or SVG via `react-native-svg` (used for icons).
 
 ## 9. Later (not MVP) — keep the design open for
 

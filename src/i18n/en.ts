@@ -10,6 +10,11 @@ export const en = {
   app: {
     name: 'Kickflip',
   },
+  placeholder: {
+    // Temporary copy for screens that aren't built yet.
+    title: 'Coming soon',
+    body: "This spot's still being built.",
+  },
   tabs: {
     today: 'Today',
     garage: 'Garage',

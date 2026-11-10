@@ -9,7 +9,8 @@ import { ThemePreview } from './ThemePreview';
 
 export function DevScreen() {
   return (
-    <SafeAreaView style={styles.screen}>
+    // The /dev route shows a header, which already handles the top inset.
+    <SafeAreaView style={styles.screen} edges={['bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
         <ComponentPreview />
         <ThemePreview />
